@@ -11,7 +11,7 @@ import re
 app = FastAPI()
 
 # Setup Gemini API Key
-api_key = 'AIzaSyDLC4VdgUAxLoSC8Leb-efJ2p1BTH6E5xI'
+api_key = 'AIzaSyDu-eoa1sYJmB4VQS8MVy6Fv0zpmrq7U1s'
 os.environ['API_KEY'] = api_key
 genai.configure(api_key=os.environ["API_KEY"])
 

@@ -8,7 +8,7 @@ from pydantic import BaseModel
 CSV_FILE = r'L:\My projects\Women_Job_Chatbot\Backend\app\knowledge_base\job_postings\job_listings.csv'
 
 # Setup Gemini API Key
-api_key = 'AIzaSyDLC4VdgUAxLoSC8Leb-efJ2p1BTH6E5xI'
+api_key = 'AIzaSyDu-eoa1sYJmB4VQS8MVy6Fv0zpmrq7U1s'
 os.environ['API_KEY'] = api_key
 genai.configure(api_key=os.environ["API_KEY"])
 
